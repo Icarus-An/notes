@@ -1,1 +1,7 @@
-
+- # Class Declatations and Modifiers 
+  - ## Final Classes  
+    - The final keyword means the class can't be subclassed. In practice, you'll almost never make a final class.  
+    - You should make a final class only if you need an absolute guarantee that none of the methods in that class will ever be overridden
+  - ## Abstract Classes  
+    - An abstract class can never be instantiated.  
+    - *Noticethat the methods marked abstract end in a semicolon rather than curly braces.
