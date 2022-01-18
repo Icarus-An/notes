@@ -1,4 +1,7 @@
 - ## From Java Oca  
-  preceding 之前的, eg: The preceding line  
-  identical 相同的, eg: A and B are almost identical
-  retrieve  取回, eg: retrieve a variable.
+  - preceding 之前的, eg: The preceding line  
+  - identical 相同的, eg: A and B are almost identical
+  - retrieve  取回, eg: retrieve a variable
+  - pass the buck 踢皮球, eg: you can't pass the buck to the next person.
+  - illustrate 説明, eg: Figure 1 illustrates the effect of abstract modifier.
+  - stay tuned 敬請關注 
