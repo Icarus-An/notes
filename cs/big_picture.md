@@ -37,7 +37,7 @@
         - char is used for storing characters(letters).
         - boolean data type is used for variables that holds either true or false.
 
-    - double type calculation will cause precision loss, occurred during conversing the decimal number into binary. Use BigDecimal with Stirng constructor to solve this problem.
+    - double type calculation will cause precision loss, occurred during conversing the float-point number into binary. Use BigDecimal with Stirng constructor to solve this problem.
 
     (1) 商业计算使用BigDecimal。
     (2) 使用参数类型为String的构造函数。
