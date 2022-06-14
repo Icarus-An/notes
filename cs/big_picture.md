@@ -58,8 +58,22 @@
 
 ## Unit Test
 - "F.I.R.S.T" principles
+https://medium.com/@tasdikrahman/f-i-r-s-t-principles-of-testing-1a497acda8d6
+
     - Fast
+
+        Test should run and show you the desired output in a matter of seconds
+    
     - Isolated/Independent
+
+        For any given unit test, for its environment variables or for its setup. It should be independent of everything else should so that it results is not influenced by any other factor.
+
+        Should follow the 3 A’s of testing: Arrange, Act, Assert
+
     - Repeatable
+
+        
+
+
     - Self-validating
     - thorough
