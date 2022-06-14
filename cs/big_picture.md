@@ -55,3 +55,11 @@
     9. Java 8 – StringJoiner class with example
     10. Java 8 – Optional class with example
     11. Java 8 – Arrays Parallel Sort
+
+## Unit Test
+- "F.I.R.S.T" principles
+    - Fast
+    - Isolated/Independent
+    - Repeatable
+    - Self-validating
+    - thorough
