@@ -10,3 +10,6 @@
             Collection<V> values();
             ...
     }
+
+## HashMap
+
