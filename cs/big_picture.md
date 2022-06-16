@@ -2,7 +2,11 @@
 - CICD pipeline
 - Redis usage
 - Java IoC >
+
 - Java stack memory heap memory >
+    - Instance variables and objects live on the heap. ( An instance variable is a variable which is declared in a class but outside of constructors, methods, or blocks)
+    - Local variables live on the stack.
+
 - state machine stock algorithm
 - Triangle arbitrage algorithm
 - spring boot
