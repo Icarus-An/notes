@@ -19,4 +19,13 @@ String in double quote
     Usually we create string like String str = "abc", the double quote string will be created and stored in String Table for reuse.
 
 
+### StringBuffer and StringBuilder
+
+StringBuffer and StringBuilder are both extend from AbstractStringBuilder，their length is variable.
+
+    char[] value;
+
+StringBuilder is faster than StringBuffer, cause StringBuffer used "synchronized" keyword to guarantee thread safey, which causes a performance loss.
+
+
 
