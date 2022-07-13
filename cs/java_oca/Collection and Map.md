@@ -36,6 +36,12 @@ TreeMap实现SortedMap接口，能够把它保存的记录根据key排序，默�
 
 搞清楚HashMap，首先需要知道HashMap是什么，即它的存储结构-字段；其次弄明白它能干什么，即它的功能实现-方法。
 
-从结构实现来讲，HashMap是数组+链表+红黑树（JDK1.8增加了红黑树部分）实现的，如下如所示。
+从结构实现来讲，HashMap是数组+链表+红黑树（链表长度大于8时）（JDK1.8增加了红黑树部分）实现的，如下如所示。
 
 ![HashMap](https://awps-assets.meituan.net/mit-x/blog-images-bundle-2016/e4a19398.png)
+
+扩容是一个特别耗性能的操作，所以当程序员在使用HashMap的时候，估算map的大小，初始化的时候给一个大致的数值，避免map进行频繁的扩容。
+负载因子是可以修改的，也可以大于1，但是建议不要轻易修改，除非情况非常特殊。
+HashMap是线程不安全的，不要在并发的环境中同时操作HashMap，建议使用ConcurrentHashMap。
+JDK1.8引入红黑树大程度优化了HashMap的性能。
+还没升级JDK1.8的，现在开始升级吧。HashMap的性能提升仅仅是JDK1.8的冰山一角。
